@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>Calf Mono Compressor:In L</Target>
+  </Connection>
+  <Connection>
+   <Source>Neural Amp Modeler:output</Source>
+   <Target>Calf Equalizer 8 Band:In L</Target>
+  </Connection>
+  <Connection>
+   <Source>Neural Amp Modeler:output</Source>
+   <Target>Calf Equalizer 8 Band:In R</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Mono Compressor:Out L</Source>
+   <Target>Neural Amp Modeler:input</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Equalizer 8 Band:Out L</Source>
+   <Target>Calf Vintage Delay:In L</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Equalizer 8 Band:Out R</Source>
+   <Target>Dragonfly Plate Reverb:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Vintage Delay:Out L</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Vintage Delay:Out R</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Dragonfly Plate Reverb:Audio Output 1</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Dragonfly Plate Reverb:Audio Output 2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Positions>
+   <Position x1="0" y1="0">
+    <Name>Carla</Name>
+   </Position>
+   <Position x1="0" y1="260" x2="683" y2="378">
+    <Name>system</Name>
+   </Position>
+   <Position x1="341" y1="228">
+    <Name>Neural Amp Modeler</Name>
+   </Position>
+   <Position x1="141" y1="154" pluginId="0">
+    <Name>Calf Mono Compressor</Name>
+   </Position>
+   <Position x1="511" y1="171" pluginId="1">
+    <Name>Calf Equalizer 8 Band</Name>
+   </Position>
+   <Position x1="503" y1="301" pluginId="2">
+    <Name>Calf Vintage Delay</Name>
+   </Position>
+   <Position x1="472" y1="456" pluginId="3">
+    <Name>Dragonfly Plate Reverb</Name>
+   </Position>
+  </Positions>
+ </ExternalPatchbay>
