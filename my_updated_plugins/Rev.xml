@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Dragonfly Plate Reverb</Name>
+   <URI>urn:dragonfly:plate</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Dry Level</Name>
+    <Symbol>dry_level</Symbol>
+    <Value>85</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Wet Level</Name>
+    <Symbol>early_level</Symbol>
+    <Value>15</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Algorithm</Name>
+    <Symbol>algorithm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Width</Name>
+    <Symbol>width</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Predelay</Name>
+    <Symbol>predelay</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>2.4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Low Cut</Name>
+    <Symbol>low_cut</Symbol>
+    <Value>250</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>High Cut</Name>
+    <Symbol>high_cut</Symbol>
+    <Value>10000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Dampen</Name>
+    <Symbol>early_damp</Symbol>
+    <Value>8500</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#String</Type>
+    <Key>urn:distrho:preset</Key>
+    <Value>Bright Plate</Value>
+   </CustomData>
+  </Data>
+</Plugin>
